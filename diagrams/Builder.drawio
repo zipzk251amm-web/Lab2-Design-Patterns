@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Сторінка-1" id="eZDiUw80RQBFOHx7pQhy">
+    <mxGraphModel dx="1414" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="icBF9m9fs20cN_nE4XWz-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Hero" vertex="1">
+          <mxGeometry height="120" width="160" x="320" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-2" parent="icBF9m9fs20cN_nE4XWz-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- height: String&lt;div&gt;- bodyType: String&lt;/div&gt;&lt;div&gt;- hairColor:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- eyeColor:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- clothing:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- inventory: List&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;String&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-5" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;Builder&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="300" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-7" parent="1" style="html=1;whiteSpace=wrap;" value="+ setHeight(height: String): Builder&lt;div&gt;+ setBodyType(type: String): Builder&lt;/div&gt;&lt;div&gt;+ setHairColor(color: String): Builder&lt;/div&gt;&lt;div&gt;+build(): Hero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-17" edge="1" parent="1" source="icBF9m9fs20cN_nE4XWz-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="icBF9m9fs20cN_nE4XWz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HeroBuilder" vertex="1">
+          <mxGeometry height="120" width="180" x="200" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-18" edge="1" parent="1" source="icBF9m9fs20cN_nE4XWz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="icBF9m9fs20cN_nE4XWz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="EnemyBuilder" vertex="1">
+          <mxGeometry height="120" width="180" x="420" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-12" parent="icBF9m9fs20cN_nE4XWz-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ EnemyBuilder()&lt;div&gt;+ setHeight(): EnemyBuilder&lt;/div&gt;&lt;div&gt;+ addEvilDeed(deed: String): EnemyBuilder&lt;/div&gt;&lt;div&gt;+build(): Hero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-19" edge="1" parent="1" source="icBF9m9fs20cN_nE4XWz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.489;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="icBF9m9fs20cN_nE4XWz-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="650" />
+              <mxPoint x="290" y="650" />
+              <mxPoint x="290" y="618" />
+            </Array>
+            <mxPoint x="290" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-20" edge="1" parent="1" source="icBF9m9fs20cN_nE4XWz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.561;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="icBF9m9fs20cN_nE4XWz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="650" />
+              <mxPoint x="520" y="650" />
+            </Array>
+            <mxPoint x="520" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Director" vertex="1">
+          <mxGeometry height="120" width="250" x="270" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-14" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ constructHero(builder: Builder) : Hero&lt;div&gt;+ constructEnemy(builder: Builder) : Hero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="250" x="275" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-9" parent="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ HeroBuilder()&lt;div&gt;+ setHeight(): HeroBuilder&lt;/div&gt;&lt;div&gt;+ addGoodDeed(deed: String): HeroBuilder&lt;/div&gt;&lt;div&gt;+build(): Hero&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="180" x="200" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="icBF9m9fs20cN_nE4XWz-16" edge="1" parent="1" source="icBF9m9fs20cN_nE4XWz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.494;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="icBF9m9fs20cN_nE4XWz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Сторінка-1" id="RLkRAXiGsQVP2wA1puiX">
+    <mxGraphModel dx="1178" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AVviFP-LrNQSsY5d30MK-1" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;Laptop&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="50" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-6" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;Netbook&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="230" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-7" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;EBook&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="410" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-8" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;Smartphone&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="590" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-23" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="AVviFP-LrNQSsY5d30MK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-25" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="AVviFP-LrNQSsY5d30MK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="430" />
+              <mxPoint x="370" y="385" />
+              <mxPoint x="350" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-26" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="AVviFP-LrNQSsY5d30MK-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="430" />
+              <mxPoint x="410" y="385" />
+              <mxPoint x="450" y="385" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-28" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="AVviFP-LrNQSsY5d30MK-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="400" />
+              <mxPoint x="670" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-9" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;DeviceFactory&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="290" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-10" parent="1" style="html=1;whiteSpace=wrap;" value="+ createLaptop(): Laptop&lt;div&gt;+ createNetbook(): Netbook&lt;/div&gt;&lt;div&gt;+ createEBook(): EBook&lt;/div&gt;&lt;div&gt;+ createSmartphone(): Smart&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="290" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-18" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="505" y="581" />
+              <mxPoint x="370" y="581" />
+            </Array>
+            <mxPoint x="370" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-11" parent="1" style="html=1;whiteSpace=wrap;" value="Balaxy&lt;div&gt;Factory&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="450" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-15" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" target="AVviFP-LrNQSsY5d30MK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-12" parent="1" style="html=1;whiteSpace=wrap;" value="Kiaomi&lt;div&gt;Factory&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="330" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-17" edge="1" parent="1" source="AVviFP-LrNQSsY5d30MK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="581" />
+              <mxPoint x="370" y="581" />
+            </Array>
+            <mxPoint x="370" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AVviFP-LrNQSsY5d30MK-13" parent="1" style="html=1;whiteSpace=wrap;" value="iProne&lt;div&gt;Factory&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="210" y="595" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
